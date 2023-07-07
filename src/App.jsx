@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 const App = () => {
@@ -85,7 +87,7 @@ const App = () => {
           <h3>Resultados:</h3>
           <ul className="lista">
             {resultList.map((result, index) => (
-              <li key={index}>{result} <span>---</span></li>
+              <li key={index}><FontAwesomeIcon className='icon' icon= {faHandPointRight} /> {result}</li>
             ))
             }
           </ul>

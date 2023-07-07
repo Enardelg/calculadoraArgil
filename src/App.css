@@ -118,6 +118,10 @@ input:focus {
   justify-content: center;
   text-align: center;
   padding: 1rem;
-  width: 30%;
+  width: 50%;
   margin: auto;
+}
+
+.icon{
+  margin-right: 0.5rem;
 }
